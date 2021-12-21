@@ -19,5 +19,5 @@ Step 2: Register an account on https://pypi.org/ \
 Step 3: Install required modules: setuptools, twine.\
 Step 4: Open cmd in your package location.\
 Step 5: Run "python setup.py sdist". (This command will generate 2 new folders named "dist" and "[your-package-name].egg.info").\
-Step 6: Run "twine upload --repository-url https://upload.pypi.org/legacy/ dist/* (This commnand will upload your package to Pypi).\
+Step 6: Run "twine upload --repository-url https://upload.pypi.org/legacy/ dist/*" (This commnand will upload your package to Pypi).\
 Step 7: After finish uploading, try install your package using pip as usual and then... ENJOY!
